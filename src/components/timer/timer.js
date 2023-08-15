@@ -47,16 +47,3 @@ export default Timer;
 
 
 
-
-
-
-/* useEffect(() => {
-    if (isTimerRuning) {
-        const interval = setInterval(() => {
-            if(seconds>0){
-                timerCount((s) => (s - 1));
-                //console.log('timer')
-            }
-            else setIsTimerRuning(false)
-            
-          }, 1000); */

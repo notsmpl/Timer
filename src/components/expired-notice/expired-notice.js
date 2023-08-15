@@ -22,7 +22,7 @@ const ExpiredNotice = () => {
     return (
         <Expired>
             <Progress type="circle" size = {400} percent={100} format={() => 'Done' }/>
-            <StartButton className = "btn btn-primary btn-lg" onClick={onRestartButton}>Restart</StartButton>
+            <StartButton  onClick={onRestartButton}>Restart</StartButton>
         </Expired>
         
 

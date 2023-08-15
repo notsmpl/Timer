@@ -6,7 +6,7 @@ import { useStore } from 'effector-react';
 import {$timerStatus,$inputStatus} from '../../store/timerStore';
 import Theme from '../../styles/Theme';
 import Container from '../../styles/Container';
-import './App.css'
+
 
 function App() {
 const inputStatus = useStore($inputStatus);
